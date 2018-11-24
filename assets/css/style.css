@@ -582,18 +582,7 @@ g.Header {
     border: 1px solid #eee;
 }
 
-.testi-content:after {
-    content: "";
-    position: absolute;
-    bottom: -11px;
-    left: 25px;
-    width: 20px;
-    height: 20px;
-    background: #fafafa;
-    transform: rotate(-45deg);
-    border-left: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-}
+
 
 .testimonials .arrows {
     float: right;
@@ -629,8 +618,7 @@ g.Header {
 }
 
 .testimonial img {
-    width: 60px;
-    border-radius: 50%;
+    width: 150px;
     position: absolute;
     margin-top: 20px;
     margin-left: 4px;
