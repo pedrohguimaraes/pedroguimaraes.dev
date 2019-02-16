@@ -131,10 +131,10 @@ section .container {
 
 .sec_title h2{
     display: inline-block;
-    font-size: 43px;
+    font-size: 30px;
     font-weight: 700;
     color: #222;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     position: relative;
     z-index: 5;
 }
