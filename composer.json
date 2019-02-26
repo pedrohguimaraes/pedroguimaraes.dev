@@ -1,0 +1,12 @@
+{
+    "name": "55719/pedroguimaraes.dev",
+    "authors": [
+        {
+            "name": "Pedro Guimarães",
+            "email": "phgs1996@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

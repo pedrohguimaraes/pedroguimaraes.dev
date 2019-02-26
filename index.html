@@ -10,7 +10,8 @@
         <title>Pedro Guimarães - Desenvolvedor Web</title>
 
         <!-- favicon -->
-        <link id="favicon" rel="icon" type="image/png" href="assets/images/favicon.ico">
+        <link id="favicon" rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 
         <!-- Google Fonts-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700">
@@ -283,11 +284,11 @@
                                         </svg>
                                         </h3>
                                         <div class="contact_form">
-                                            <form action="send.php" method="post">
-                                                <input placeholder="Seu nome" name="name" type="text" class="form-control">
-                                                <input placeholder="Seu e-mail" name="email" type="email" class="form-control">
-                                                <textarea placeholder="Diz aí o porquê do seu contato comigo." name="message" class="form-control"></textarea>
-                                                <div class="submit btn btn-lg btn-success btn-block">Enviar mensagem    </div>
+                                            <form action="script.php" enctype="multipart/form-data" method="post">
+                                                <!-- <input placeholder="Seu nome" name="name" type="text" class="form-control"> -->
+                                                <!-- <input placeholder="Seu e-mail" name="email" type="email" class="form-control"> -->
+                                                <!-- <textarea placeholder="Diz aí o porquê do seu contato comigo." name="message" class="form-control"></textarea> -->
+                                                <input type="submit" placeholder="Enviar Mensagem" />
                                                 <!--Contact form message-->
                                                 <div class="msg_success"><p>Your message has been sent. Thank you!</p></div>
                                                 <div class="msg_error"><p>Sorry your message can not be sent.</p></div>
